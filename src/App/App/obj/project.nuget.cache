@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kv0HCG8NEY0=",
+  "success": true,
+  "projectFilePath": "/home/pop/Projects/TodoCLI/src/App/App/App.csproj",
+  "expectedPackageFiles": [
+    "/home/pop/.nuget/packages/system.commandline/2.0.1/system.commandline.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

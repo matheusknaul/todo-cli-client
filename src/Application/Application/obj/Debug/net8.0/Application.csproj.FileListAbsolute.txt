@@ -1,0 +1,11 @@
+/home/pop/Projects/TodoCLI/src/Application/Application/bin/Debug/net8.0/Application.deps.json
+/home/pop/Projects/TodoCLI/src/Application/Application/bin/Debug/net8.0/Application.dll
+/home/pop/Projects/TodoCLI/src/Application/Application/bin/Debug/net8.0/Application.pdb
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.dll
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/refint/Application.dll
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/Application.pdb
+/home/pop/Projects/TodoCLI/src/Application/Application/obj/Debug/net8.0/ref/Application.dll
