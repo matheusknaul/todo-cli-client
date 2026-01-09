@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5yMCQKZbuYw=",
+  "dgSpecHash": "29P3p5G6FWg=",
   "success": true,
   "projectFilePath": "/home/pop/Projects/TodoCLI/src/Infrastructure/Infrastructure/Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/pop/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.1/microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+    "/home/pop/.nuget/packages/microsoft.extensions.options/10.0.1/microsoft.extensions.options.10.0.1.nupkg.sha512",
+    "/home/pop/.nuget/packages/microsoft.extensions.primitives/10.0.1/microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "/home/pop/.nuget/packages/refit/9.0.2/refit.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

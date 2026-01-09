@@ -10,6 +10,7 @@
       <Folder Include="Commands\" />
       <Folder Include="UseCase\EndFocusUseCase\" />
       <Folder Include="UseCase\StartFocusUseCase\" />
+      <Folder Include="UseCase\ValidateSessionUseCase\" />
     </ItemGroup>
 
     <ItemGroup>
