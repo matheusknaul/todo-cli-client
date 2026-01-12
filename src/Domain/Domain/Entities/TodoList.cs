@@ -10,7 +10,7 @@ public class TodoList
     public string Title { get; set; }
     public string Description { get; set; }
     public TodoStatus Status { get; set; }
-    public List<TodoItem> Items { get; set; }
+    public List<TodoItem> Items { get; set; } = new();
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public DateTime ClosedAt { get; set; }

@@ -9,3 +9,15 @@
 /home/pop/Projects/TodoCLI/src/Domain/Domain/obj/Debug/net8.0/refint/Domain.dll
 /home/pop/Projects/TodoCLI/src/Domain/Domain/obj/Debug/net8.0/Domain.pdb
 /home/pop/Projects/TodoCLI/src/Domain/Domain/obj/Debug/net8.0/ref/Domain.dll
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\matheus.henrique\OneDrive - Strattner\Área de Trabalho\Nova pasta\todo-cli-client\src\Domain\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,4 +1,5 @@
-﻿using Domain.Interfaces;
+﻿using Domain.Entities;
+using Domain.Interfaces;
 
 namespace Application.UseCase.Todo.Create
 {
@@ -15,8 +16,20 @@ namespace Application.UseCase.Todo.Create
         {
             try
             {
-                var session = _repo.LoadAsync();
+                var session = await _repo.LoadAsync();
 
+                var todoList = session.Version.TodoLists
+                    .FirstOrDefault(t => t.Id == command.TodoListId);
+
+                var item = new TodoItem 
+                {
+                    Title = command.Title,
+                    Description = command.Description,
+                };
+
+                todoList.Items.Add(item);
+
+                await _repo.SaveAsync(session);
 
             }
             catch (Exception ex) 

@@ -7,20 +7,32 @@
       "RelativeMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|solutionrelative:tests\\unittest\\unittest\\createtodoitemtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\tests\\unittest\\unittest\\commonutilitiestest\\datarepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|solutionrelative:tests\\unittest\\unittest\\commonutilitiestest\\datarepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\application\\application\\usecase\\todo\\create\\createtodoitemusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|solutionrelative:src\\application\\application\\usecase\\todo\\create\\createtodoitemusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\application\\application\\usecase\\todo\\create\\createtodoitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|solutionrelative:src\\application\\application\\usecase\\todo\\create\\createtodoitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\entities\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain\\entities\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\tests\\unittest\\unittest\\unittest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|solutionrelative:tests\\unittest\\unittest\\unittest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\application\\application\\usecase\\todo\\create\\createtodoitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|solutionrelative:src\\application\\application\\usecase\\todo\\create\\createtodoitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\entities\\version.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\tests\\unittest\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B6ED907-BA3E-4672-BD72-F0D45346EB1E}|tests\\UnitTest\\UnitTest\\UnitTest.csproj|solutionrelative:tests\\unittest\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\domain\\domain\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EBAAD1-97B9-4B9D-8158-32ADE46FF0C3}|src\\Domain\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8978C-ACE8-4285-A66B-4CB16697214D}|src\\Application\\Application\\Application.csproj|c:\\users\\matheus.henrique\\onedrive - strattner\\\u00E1rea de trabalho\\nova pasta\\todo-cli-client\\src\\application\\application\\usecase\\user\\requestauthusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,39 +106,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\UnitTest.csproj",
+              "RelativeDocumentMoniker": "tests\\UnitTest\\UnitTest\\UnitTest.csproj",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\UnitTest.csproj",
+              "RelativeToolTip": "tests\\UnitTest\\UnitTest\\UnitTest.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-12T04:53:13.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoList.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\TodoList.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Domain\\Entities\\TodoList.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\TodoList.cs",
+              "RelativeToolTip": "src\\Domain\\Domain\\Entities\\TodoList.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:06:36.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CreateTodoItemTest.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\CreateTodoItemTest.cs",
               "RelativeDocumentMoniker": "tests\\UnitTest\\UnitTest\\CreateTodoItemTest.cs",
               "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\CreateTodoItemTest.cs",
               "RelativeToolTip": "tests\\UnitTest\\UnitTest\\CreateTodoItemTest.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwCgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T06:12:53.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateTodoItemCommand.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
-              "RelativeToolTip": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T06:03:37.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Session.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Session.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Domain\\Entities\\Session.cs",
               "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Session.cs",
               "RelativeToolTip": "src\\Domain\\Domain\\Entities\\Session.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T06:33:52.887Z",
               "EditorCaption": ""
@@ -138,53 +158,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DataRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\CommonUtilitiesTest\\DataRepositoryTest.cs",
+              "RelativeDocumentMoniker": "tests\\UnitTest\\UnitTest\\CommonUtilitiesTest\\DataRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\CommonUtilitiesTest\\DataRepositoryTest.cs",
+              "RelativeToolTip": "tests\\UnitTest\\UnitTest\\CommonUtilitiesTest\\DataRepositoryTest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T03:53:30.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CreateTodoItemUseCase.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemUseCase.cs",
               "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemUseCase.cs",
               "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemUseCase.cs",
               "RelativeToolTip": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemUseCase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T06:01:01.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TodoList.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\TodoList.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Domain\\Entities\\TodoList.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\TodoList.cs",
-              "RelativeToolTip": "src\\Domain\\Domain\\Entities\\TodoList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CreateTodoItemCommand.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
+              "RelativeToolTip": "src\\Application\\Application\\UseCase\\Todo\\Create\\CreateTodoItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T06:06:36.445Z",
+              "WhenOpened": "2026-01-11T06:03:37.579Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Version.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Version.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Domain\\Entities\\Version.cs",
-              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Version.cs",
-              "RelativeToolTip": "src\\Domain\\Domain\\Entities\\Version.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T06:35:56.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-09T02:58:50.129Z"
             },
             {
               "$type": "Document",
@@ -194,14 +202,40 @@
               "RelativeDocumentMoniker": "src\\Domain\\Domain\\Interfaces\\ITodoRepository.cs",
               "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Interfaces\\ITodoRepository.cs",
               "RelativeToolTip": "src\\Domain\\Domain\\Interfaces\\ITodoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T05:59:51.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "Version.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Version.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Domain\\Entities\\Version.cs",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Entities\\Version.cs",
+              "RelativeToolTip": "src\\Domain\\Domain\\Entities\\Version.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:35:56.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T02:58:50.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\tests\\UnitTest\\UnitTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "tests\\UnitTest\\UnitTest\\UnitTest1.cs",
@@ -209,12 +243,11 @@
               "RelativeToolTip": "tests\\UnitTest\\UnitTest\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:18:17.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:18:17.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RegisterUserUseCase.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\User\\RegisterUserUseCase.cs",
               "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\User\\RegisterUserUseCase.cs",
@@ -226,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SessionHandler.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Handler\\SessionHandler.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Handler\\SessionHandler.cs",
@@ -238,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "UpdateDataUseCase.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\Session\\UpdateDataUseCase.cs",
               "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\Session\\UpdateDataUseCase.cs",
@@ -250,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IApiConnection.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Integration\\IApiConnection.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Integration\\IApiConnection.cs",
@@ -262,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RequestAuthUseCase.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\UseCase\\User\\RequestAuthUseCase.cs",
               "RelativeDocumentMoniker": "src\\Application\\Application\\UseCase\\User\\RequestAuthUseCase.cs",
@@ -270,12 +303,11 @@
               "RelativeToolTip": "src\\Application\\Application\\UseCase\\User\\RequestAuthUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:17:19.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:17:19.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApiConnection.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Integration\\ApiConnection.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Integration\\ApiConnection.cs",
@@ -287,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "TodoRepository.cs",
               "DocumentMoniker": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\\u00C1rea de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Persistence\\TodoRepository.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure\\Persistence\\TodoRepository.cs",
