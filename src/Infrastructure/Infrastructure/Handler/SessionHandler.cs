@@ -1,5 +1,6 @@
 using Application.Interfaces;
 using Domain.Entities;
+using Infrastructure.Integration;
 using Microsoft.Extensions.Options;
 using Version = System.Version;
 
@@ -19,6 +20,11 @@ public sealed class SessionHandler : ISessionHandler
         _apiConnection = apiConnection;
     }
     
+    public async Task<bool> SyncSessionAsync(string token)
+    {
+        var request = await _apiConnection.SyncSessionAsync(token);
+    }
+
     private Session InitializeSession(string sessionPath)
     {
         return _session;

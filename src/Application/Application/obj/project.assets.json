@@ -27,32 +27,40 @@
     ]
   },
   "packageFolders": {
-    "/home/pop/.nuget/packages/": {}
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pop/Projects/TodoCLI/src/Application/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/home/pop/Projects/TodoCLI/src/Application/Application/Application.csproj",
-      "packagesPath": "/home/pop/.nuget/packages/",
-      "outputPath": "/home/pop/Projects/TodoCLI/src/Application/Application/obj/",
+      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/pop/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/hstrattnerdevs/_packaging/Sap.Hana.Client/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/pop/Projects/TodoCLI/src/Domain/Domain/Domain.csproj": {
-              "projectPath": "/home/pop/Projects/TodoCLI/src/Domain/Domain/Domain.csproj"
+            "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj"
             }
           }
         }
@@ -61,7 +69,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -82,7 +96,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

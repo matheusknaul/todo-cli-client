@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "29P3p5G6FWg=",
+  "dgSpecHash": "3UN0pTwt1k0=",
   "success": true,
-  "projectFilePath": "/home/pop/Projects/TodoCLI/src/Infrastructure/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
-    "/home/pop/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.1/microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
-    "/home/pop/.nuget/packages/microsoft.extensions.options/10.0.1/microsoft.extensions.options.10.0.1.nupkg.sha512",
-    "/home/pop/.nuget/packages/microsoft.extensions.primitives/10.0.1/microsoft.extensions.primitives.10.0.1.nupkg.sha512",
-    "/home/pop/.nuget/packages/refit/9.0.2/refit.9.0.2.nupkg.sha512"
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.extensions.options\\10.0.1\\microsoft.extensions.options.10.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\refit\\9.0.2\\refit.9.0.2.nupkg.sha512"
   ],
   "logs": []
 }

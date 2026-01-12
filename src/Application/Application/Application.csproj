@@ -7,10 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="UseCase\EndFocusUseCase\**" />
+      <Compile Remove="UseCase\StartFocusUseCase\**" />
+      <Compile Remove="UseCase\ValidateSessionUseCase\**" />
+      <EmbeddedResource Remove="UseCase\EndFocusUseCase\**" />
+      <EmbeddedResource Remove="UseCase\StartFocusUseCase\**" />
+      <EmbeddedResource Remove="UseCase\ValidateSessionUseCase\**" />
+      <None Remove="UseCase\EndFocusUseCase\**" />
+      <None Remove="UseCase\StartFocusUseCase\**" />
+      <None Remove="UseCase\ValidateSessionUseCase\**" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Folder Include="Commands\" />
-      <Folder Include="UseCase\EndFocusUseCase\" />
-      <Folder Include="UseCase\StartFocusUseCase\" />
-      <Folder Include="UseCase\ValidateSessionUseCase\" />
     </ItemGroup>
 
     <ItemGroup>
