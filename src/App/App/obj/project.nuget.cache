@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Zo2Og7W2Xz4=",
+  "dgSpecHash": "sRylGPO4SPI=",
   "success": true,
-  "projectFilePath": "/home/matheus/RiderProjects/todo-cli-client/src/App/App/App.csproj",
+  "projectFilePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
   "expectedPackageFiles": [
-    "/home/matheus/.nuget/packages/system.commandline/2.0.1/system.commandline.2.0.1.nupkg.sha512",
-    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/home/matheus/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
+    "C:\\Users\\matheus.henrique\\.nuget\\packages\\system.commandline\\2.0.1\\system.commandline.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }

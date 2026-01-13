@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZetYWqdoH08=",
+  "dgSpecHash": "ZXrA0Bo6QeY=",
   "success": true,
-  "projectFilePath": "/home/matheus/RiderProjects/todo-cli-client/src/Domain/Domain/Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
