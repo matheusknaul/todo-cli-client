@@ -14,28 +14,21 @@ namespace Application.UseCase.Todo.Create
 
         public async Task ExecuteAsync(CreateTodoItemCommand command)
         {
-            try
-            {
-                var session = await _repo.LoadAsync();
+            var session = await _repo.LoadAsync();
 
-                var todoList = session.Version.TodoLists
-                    .FirstOrDefault(t => t.Id == command.TodoListId);
+            var todoList = session.Version
+                .GetOrDefault(command.TodoListId);
 
-                var item = new TodoItem 
-                {
-                    Title = command.Title,
-                    Description = command.Description,
-                };
+            var item = new TodoItem(
+                command.TodoId,
+                command.Title,
+                command.Description
+            );
 
-                todoList.Items.Add(item);
+            todoList.AddItem(item);
 
-                await _repo.SaveAsync(session);
+            await _repo.SaveAsync(session);
 
-            }
-            catch (Exception ex) 
-            {
-            
-            }
         }
     }
 }

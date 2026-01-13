@@ -5,27 +5,13 @@
   "Version": {
     "TodoLists": [
       {
-        "Id": "67715905-9770-4d40-9408-cb4ac30ea9bd",
+        "Id": "dc9d7229-9ea4-47ce-bc7f-af750ec509a7",
         "SessionId": "00000000-0000-0000-0000-000000000000",
         "VersionId": "00000000-0000-0000-0000-000000000000",
         "Title": null,
         "Description": null,
         "Status": 0,
-        "Items": [
-          {
-            "Id": "00000000-0000-0000-0000-000000000000",
-            "SessionId": "00000000-0000-0000-0000-000000000000",
-            "VersionId": "00000000-0000-0000-0000-000000000000",
-            "TaskNum": 0,
-            "Title": "Item Teste",
-            "Description": null,
-            "Status": 0,
-            "ElapsedMinutes": 0,
-            "CreatedAt": "0001-01-01T00:00:00",
-            "UpdatedAt": "0001-01-01T00:00:00",
-            "ClosedAt": "0001-01-01T00:00:00"
-          }
-        ],
+        "Items": null,
         "CreatedAt": "0001-01-01T00:00:00",
         "UpdatedAt": "0001-01-01T00:00:00",
         "ClosedAt": "0001-01-01T00:00:00"

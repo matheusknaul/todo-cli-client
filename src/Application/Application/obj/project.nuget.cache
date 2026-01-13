@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xIqdoOhWDNw=",
+  "dgSpecHash": "6Zx2H06/z18=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/matheus/RiderProjects/todo-cli-client/src/Application/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }
