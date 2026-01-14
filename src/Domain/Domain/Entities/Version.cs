@@ -3,7 +3,8 @@ namespace Domain.Entities;
 public class Version
 {
     public Guid Id { get; private set; }
-    public List<TodoList> TodoLists { get; private set; } = new();
+    private readonly List<TodoList> _todoLists = new();
+    public IReadOnlyCollection<TodoList> TodoLists => _todoLists;
 
     public TodoList GetDefault()
     {
@@ -13,7 +14,7 @@ public class Version
             return inbox;
 
         inbox = TodoList.CreateDefault(Id);
-        TodoLists.Add(inbox);
+        _todoLists.Add(inbox);
         return inbox;
     }
 
@@ -22,5 +23,22 @@ public class Version
         return TodoLists.FirstOrDefault(x => x.Id == todoListId)
             ?? GetDefault();
     }
+
+    public void CreateTodoList(string Title, string description = null)
+    {
+
+    }
+
+    public void AddTodoList(TodoList todoList)
+    {
+        if (todoList == null)
+            throw new ArgumentNullException(nameof(todoList));
+
+        if (_todoLists.Any(t => t.Id == todoList.Id))
+            return;
+
+        _todoLists.Add(todoList);
+    }
+
     
 }

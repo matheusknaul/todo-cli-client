@@ -3,15 +3,27 @@
   "UserId": "00000000-0000-0000-0000-000000000000",
   "VersionId": "00000000-0000-0000-0000-000000000000",
   "Version": {
+    "Id": "00000000-0000-0000-0000-000000000000",
     "TodoLists": [
       {
-        "Id": "dc9d7229-9ea4-47ce-bc7f-af750ec509a7",
-        "SessionId": "00000000-0000-0000-0000-000000000000",
-        "VersionId": "00000000-0000-0000-0000-000000000000",
-        "Title": null,
-        "Description": null,
-        "Status": 0,
-        "Items": null,
+        "Id": "773d4077-5d95-4963-b58c-fa59e2a4a15e",
+        "Title": "Default",
+        "IsDefault": true,
+        "Items": [
+          {
+            "Id": "00000000-0000-0000-0000-000000000000",
+            "SessionId": "00000000-0000-0000-0000-000000000000",
+            "VersionId": "00000000-0000-0000-0000-000000000000",
+            "TaskNum": 0,
+            "Title": "Item Teste",
+            "Description": null,
+            "Status": 1,
+            "ElapsedMinutes": 0,
+            "CreatedAt": "2026-01-13T16:28:55.8968428Z",
+            "UpdatedAt": "2026-01-13T16:28:55.8968428Z",
+            "ClosedAt": "0001-01-01T00:00:00"
+          }
+        ],
         "CreatedAt": "0001-01-01T00:00:00",
         "UpdatedAt": "0001-01-01T00:00:00",
         "ClosedAt": "0001-01-01T00:00:00"

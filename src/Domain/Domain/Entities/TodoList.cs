@@ -15,11 +15,11 @@ public class TodoList
     
     protected TodoList(){}
 
-    private TodoList(Guid id, string title, bool isInbox)
+    public TodoList(Guid id, string title, bool isDefault)
     {
         Id = id;
         Title = title;
-        IsDefault = isInbox;
+        IsDefault = isDefault;
         Items = new List<TodoItem>();
     }
 
