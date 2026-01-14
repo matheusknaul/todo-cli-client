@@ -11,8 +11,8 @@ public class TodoItem
     public int TaskNum { get; set; }
     public string Title { get; private set; }
     public string Description { get; private set; }
-    public TodoStatus Status { get; private set; }
-    public int ElapsedMinutes  { get; private set; }
+    public TodoStatus Status { get; set; }
+    public ElapsedTime ElapsedMinutes  { get; private set; }
     public DateTime CreatedAt { get;}
     public DateTime UpdatedAt { get; private set; }
     public DateTime ClosedAt { get; private set; }
@@ -47,4 +47,5 @@ public class TodoItem
         Title = newTitle;
         UpdatedAt = DateTime.UtcNow;
     }
+
 }

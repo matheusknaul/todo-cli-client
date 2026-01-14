@@ -39,4 +39,45 @@ public class TodoList
         
         Items.Add(item);
     }
+
+    public void DeleteItem(int taskNum) 
+    {
+        if(!Items.Any(X => X.TaskNum == taskNum))
+            throw new DomainException("Item não encontrado");
+
+        Items.Remove(Items.FirstOrDefault(X => X.TaskNum == taskNum));
+    }
+
+    public void StartFocus(int taskNum)
+    {
+        var todoItem = Items.FirstOrDefault(t => t.TaskNum == taskNum);
+
+        if(todoItem == null)
+            throw new DomainException("Item não encontrado");
+
+        if (todoItem.Status == TodoStatus.InProgress)
+            throw new DomainException("Item já está em focus");
+
+        if (todoItem.Status == TodoStatus.Done)
+            throw new DomainException("Item já está finalizado");
+
+        todoItem.Status = TodoStatus.InProgress;
+        todoItem.ElapsedMinutes.Start();
+    }
+
+    public void EndFocus(int taskNum)
+    {
+        var todoItem = Items.FirstOrDefault(t => t.TaskNum == taskNum);
+
+        if (todoItem == null)
+            throw new DomainException("Item não encontrado");
+
+        if(todoItem.Status == TodoStatus.Open ||
+            todoItem.Status == TodoStatus.Done)
+            throw new DomainException("Item não está em focus");
+
+        todoItem.Status = TodoStatus.Open;
+        todoItem.ElapsedMinutes.Finish();
+
+    }
 }

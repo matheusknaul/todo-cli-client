@@ -20,6 +20,13 @@
 
     <ItemGroup>
       <Folder Include="Commands\" />
+      <Folder Include="UseCase\Todo\Delete\" />
+      <Folder Include="UseCase\Todo\List\" />
+      <Folder Include="UseCase\Todo\EndFocus\" />
+      <Folder Include="UseCase\Todo\Complete\" />
+      <Folder Include="UseCase\Todo\Initialize\" />
+      <Folder Include="UseCase\Todo\Rename\" />
+      <Folder Include="UseCase\Todo\StartFocus\" />
     </ItemGroup>
 
     <ItemGroup>
