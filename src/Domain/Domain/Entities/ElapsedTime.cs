@@ -4,19 +4,18 @@
     {
         public DateTime StartedAt { get; set; }
         public DateTime FinishedAt { get; set; }
-        public int Minutes =>
-            (int)(FinishedAt - StartedAt).TotalMinutes;
+        public int Minutes { get; set; }
 
         public void Start()
         {
             StartedAt = DateTime.Now;
         }
 
-        public int Finish()
+        public void Finish()
         {
             FinishedAt = DateTime.Now;
 
-            return this.Minutes;
+            Minutes = (int)(FinishedAt - StartedAt).TotalMinutes;
         }
     }
 }

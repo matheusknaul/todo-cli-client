@@ -4,6 +4,76 @@
     "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj": {}
   },
   "projects": {
+    "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hstrattnerdevs/_packaging/Sap.Hana.Client/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +82,85 @@
         "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
         "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matheus.henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hstrattnerdevs/_packaging/Sap.Hana.Client/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Application\\Application\\Application.csproj"
+              },
+              "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\matheus.henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,12 +199,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "System.CommandLine": {
-              "target": "Package",
-              "version": "[2.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
