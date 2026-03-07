@@ -1,38 +1,32 @@
-﻿using System.CommandLine;
-using System.CommandLine.Parsing;
+﻿using Terminal.Gui;
 
-namespace scl;
+Application.Init();
 
-class Program
+var window = new Window("Todo Configuration")
 {
-    static int Main(string[] args)
-    {
-        Option<FileInfo> fileOption = new("--file")
-        {
-            Description = "The file to read and display on the console"
-        };
+    X = 0,
+    Y = 1,
+    Width = Dim.Fill(),
+    Height = Dim.Fill()
+};
 
-        RootCommand rootCommand = new("Sample app for System.CommandLine");
-        rootCommand.Options.Add(fileOption);
+var label = new Label("Hello, Terminal.Gui!")
+{
+    X = Pos.Center(),
+    Y = Pos.Center()
+};
 
-        ParseResult parseResult = rootCommand.Parse(args);
-        if (parseResult.Errors.Count == 0 && parseResult.GetValue(fileOption) is FileInfo parsedFile)
-        {
-            ReadFile(parsedFile);
-            return 0;
-        }
-        foreach (ParseError parseError in parseResult.Errors)
-        {
-            Console.Error.WriteLine(parseError.Message);
-        }
-        return 1;
-    }
+var label2 = new Label()
+{
+    Title = "Computed",
+    X = Pos.Right(),
+    Y = Pos.Center(),
+    Width = Dim.Fill(),
+    Height = Dim.Percent(50)
+};
 
-    static void ReadFile(FileInfo file)
-    {
-        foreach (string line in File.ReadLines(file.FullName))
-        {
-            Console.WriteLine(line);
-        }
-    }
-}
+window.Add(label);
+Application.Top.Add(window);
+
+Application.Run();
+Application.Shutdown();
