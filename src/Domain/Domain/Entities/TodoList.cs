@@ -12,8 +12,8 @@ public class TodoList
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public DateTime ClosedAt { get; set; }
-    
-    protected TodoList(){}
+
+    protected TodoList() { }
 
     public TodoList(Guid id, string title, bool isDefault)
     {
@@ -31,43 +31,43 @@ public class TodoList
             true
             );
     }
-    
+
     public void AddItem(TodoItem item)
     {
         if (Items.Any(x => x.Title == item.Title))
             throw new DomainException("Item duplicado");
 
         int lastNumber = Items.Any() ? Items.Max(i => i.TaskNum) : 0;
-        
+
         item.TaskNum = lastNumber + 1;
 
         Items.Add(item);
     }
 
-    public void DeleteItem(int taskNum) 
+    public void DeleteItem(int taskNum)
     {
-        if(!Items.Any(X => X.TaskNum == taskNum))
-            throw new DomainException("Item n„o encontrado");
+        if (!Items.Any(X => X.TaskNum == taskNum))
+            throw new DomainException("Item nÔøΩo encontrado");
 
         Items.Remove(Items.FirstOrDefault(X => X.TaskNum == taskNum));
     }
 
-    public void StartFocus(int? taskNum)
+    public void StartExecution(int? taskNum)
     {
         if (!taskNum.HasValue)
-            throw new DomainException("TaskNum n„o pode ser nulo");
+            throw new DomainException("TaskNum nÔøΩo pode ser nulo");
 
         var todoItem = Items.FirstOrDefault(t => t.TaskNum == taskNum.Value);
 
         if (todoItem == null)
-            throw new DomainException("Item n„o encontrado");
+            throw new DomainException("Item nÔøΩo encontrado");
 
         switch (todoItem.Status)
         {
             case TodoStatus.InProgress:
-                throw new DomainException("Item j· est· em foco");
+                throw new DomainException("Item jÔøΩ estÔøΩ em foco");
             case TodoStatus.Done:
-                throw new DomainException("Item j· est· finalizado");
+                throw new DomainException("Item jÔøΩ estÔøΩ finalizado");
         }
 
         todoItem.Status = TodoStatus.InProgress;
@@ -77,25 +77,25 @@ public class TodoList
     public void CompleteItem(int taskNum)
     {
         var todoItem = Items.FirstOrDefault(t => t.TaskNum == taskNum)
-            ?? throw new DomainException("Item n„o encontrado");
+            ?? throw new DomainException("Item nÔøΩo encontrado");
 
         if (todoItem.Status == TodoStatus.Done)
-            throw new DomainException("Item j· finalizado");
+            throw new DomainException("Item jÔøΩ finalizado");
 
         todoItem.Status = TodoStatus.Done;
     }
 
 
-    public void EndFocus(int taskNum)
+    public void EndExecution(int taskNum)
     {
         var todoItem = Items.FirstOrDefault(t => t.TaskNum == taskNum);
 
         if (todoItem == null)
-            throw new DomainException("Item n„o encontrado");
+            throw new DomainException("Item n√£o encontrado");
 
-        if(todoItem.Status == TodoStatus.Open ||
+        if (todoItem.Status == TodoStatus.Open ||
             todoItem.Status == TodoStatus.Done)
-            throw new DomainException("Item n„o est· em focus");
+            throw new DomainException("Item n√£o est√° em focus");
 
         todoItem.Status = TodoStatus.Open;
         todoItem.ElapsedMinutes.Finish();

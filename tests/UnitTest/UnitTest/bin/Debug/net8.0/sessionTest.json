@@ -6,21 +6,22 @@
     "Id": "00000000-0000-0000-0000-000000000000",
     "TodoLists": [
       {
-        "Id": "a1b09cc8-eeeb-4cf6-a347-de7b432caa7a",
+        "Id": "16cc89f2-7468-4754-9e9b-c21aae94183b",
         "Title": "Default",
         "IsDefault": true,
         "Items": [
           {
-            "Id": "00000000-0000-0000-0000-000000000000",
+            "Id": "f0f682aa-3ea3-45f2-81d0-d005b379f704",
             "SessionId": "00000000-0000-0000-0000-000000000000",
             "VersionId": "00000000-0000-0000-0000-000000000000",
             "TaskNum": 1,
             "Title": "Item Teste",
             "Description": null,
             "Status": 1,
+            "SpectectedMinutes": null,
             "ElapsedMinutes": null,
-            "CreatedAt": "2026-01-14T23:47:45.8480081Z",
-            "UpdatedAt": "2026-01-14T23:47:45.8480081Z",
+            "CreatedAt": "2026-03-16T15:06:07.4012061Z",
+            "UpdatedAt": "2026-03-16T15:06:07.4012061Z",
             "ClosedAt": "0001-01-01T00:00:00"
           }
         ],

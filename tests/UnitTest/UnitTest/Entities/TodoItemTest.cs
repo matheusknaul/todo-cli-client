@@ -9,7 +9,7 @@ namespace UnitTest.Entities
         [Fact]
         public void CompleteTaskShouldReturnException()
         {
-            var todoItem = new TodoItem(new Guid(), "Todo Item Test",
+            var todoItem = new TodoItem("Todo Item Test",
                  "Test Description");
 
             // Complete
@@ -21,7 +21,7 @@ namespace UnitTest.Entities
         [Fact]
         public void CompleteTaskShouldReturnSuccess()
         {
-            var todoItem = new TodoItem(new Guid(), "Todo Item Test",
+            var todoItem = new TodoItem("Todo Item Test",
                 "Test Description");
 
             todoItem.Complete();
@@ -32,7 +32,7 @@ namespace UnitTest.Entities
         [Fact]
         public void RenameTaskShouldReturnNewTitle()
         {
-            var todoItem = new TodoItem(new Guid(), "Todo Item Test",
+            var todoItem = new TodoItem("Todo Item Test",
                 "Test Description");
 
             todoItem.Rename("New Title");
@@ -43,7 +43,7 @@ namespace UnitTest.Entities
         [Fact]
         public void RenameTaskShouldReturnException()
         {
-            var todoItem = new TodoItem(new Guid(), "Todo Item Test",
+            var todoItem = new TodoItem("Todo Item Test",
                 "Test Description");
 
             // Without title, cant rename, should return exception.

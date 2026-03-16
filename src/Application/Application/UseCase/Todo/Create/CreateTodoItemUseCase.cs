@@ -7,7 +7,7 @@ namespace Application.UseCase.Todo.Create
     {
         private readonly ITodoRepository _repo;
 
-        public CreateTodoItemUseCase (ITodoRepository repo)
+        public CreateTodoItemUseCase(ITodoRepository repo)
         {
             _repo = repo;
         }
@@ -20,7 +20,6 @@ namespace Application.UseCase.Todo.Create
                 .GetOrDefault(command.TodoListId);
 
             var item = new TodoItem(
-                command.TodoId,
                 command.Title,
                 command.Description
             );

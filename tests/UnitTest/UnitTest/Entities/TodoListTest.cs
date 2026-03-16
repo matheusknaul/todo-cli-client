@@ -25,7 +25,7 @@ namespace UnitTest.Entities
         public void AddItem_DuplicateTitle_ShouldThrowDomainException()
         {
             var todoList = new TodoList(Guid.NewGuid(), "Todo List Test", false);
-            var item = new TodoItem(Guid.NewGuid(), "Tarefa 1");
+            var item = new TodoItem("Tarefa 1");
 
             todoList.AddItem(item);
 
@@ -36,7 +36,7 @@ namespace UnitTest.Entities
         public void AddItem_NewItem_ShouldAddSuccessfully()
         {
             var todoList = new TodoList(Guid.NewGuid(), "Todo List Test", false);
-            var item = new TodoItem(Guid.NewGuid(), "Tarefa 1");
+            var item = new TodoItem("Tarefa 1");
 
             todoList.AddItem(item);
 
@@ -55,7 +55,7 @@ namespace UnitTest.Entities
         public void DeleteItem_ExistingItem_ShouldRemoveSuccessfully()
         {
             var todoList = new TodoList(Guid.NewGuid(), "Todo List Test", false);
-            var item = new TodoItem(Guid.NewGuid(), "Tarefa 1");
+            var item = new TodoItem("Tarefa 1");
 
             todoList.AddItem(item);
             todoList.DeleteItem(item.TaskNum);
@@ -70,43 +70,43 @@ namespace UnitTest.Entities
 
             int? taskNum = null;
 
-            Assert.Throws<DomainException>(() => todoList.StartFocus(taskNum));
+            Assert.Throws<DomainException>(() => todoList.StartExecution(taskNum));
         }
 
         [Fact]
         public void StartFocus_AlreadyFocused_ShouldThrowDomainException()
         {
             var todoList = new TodoList(Guid.NewGuid(), "Todo List Test", false);
-            var item = new TodoItem(Guid.NewGuid(), "Tarefa 1");
+            var item = new TodoItem("Tarefa 1");
 
             todoList.AddItem(item);
 
             // Primeiro startFocus funciona
-            todoList.StartFocus(item.TaskNum);
+            todoList.StartExecution(item.TaskNum);
 
             // Segundo startFocus para o mesmo item deve lançar exceção
-            Assert.Throws<DomainException>(() => todoList.StartFocus(item.TaskNum));
+            Assert.Throws<DomainException>(() => todoList.StartExecution(item.TaskNum));
         }
 
         [Fact]
         public void ItemDoneShouldReturnThrows()
         {
             var todoList = new TodoList(Guid.NewGuid(), "Todo List Test", false);
-            var item = new TodoItem(Guid.NewGuid(), "Tarefa 1");
+            var item = new TodoItem("Tarefa 1");
 
             todoList.AddItem(item);
 
             // StartFocus deve funcionar
-            todoList.StartFocus(item.TaskNum);
+            todoList.StartExecution(item.TaskNum);
 
             // EndFocus deve funcionar
-            todoList.EndFocus(item.TaskNum);
+            todoList.EndExecution(item.TaskNum);
 
             // Marcar item como Done via método público
             todoList.CompleteItem(item.TaskNum);
 
             // Agora deve lançar exceção ao tentar StartFocus
-            Assert.Throws<DomainException>(() => todoList.StartFocus(item.TaskNum));
+            Assert.Throws<DomainException>(() => todoList.StartExecution(item.TaskNum));
         }
     }
 }

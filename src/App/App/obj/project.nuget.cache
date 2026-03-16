@@ -1,27 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "XHZv35i+Jp0=",
+  "dgSpecHash": "yCoayNOXoeU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+  "projectFilePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.azure.activedirectory.graphclient\\2.1.1\\microsoft.azure.activedirectory.graphclient.2.1.1.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.data.edm\\5.6.4\\microsoft.data.edm.5.6.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.data.odata\\5.6.4\\microsoft.data.odata.5.6.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\microsoft.data.services.client\\5.6.4\\microsoft.data.services.client.5.6.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\nstack.core\\1.1.1\\nstack.core.1.1.1.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\system.codedom\\9.0.4\\system.codedom.9.0.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\system.management\\9.0.4\\system.management.9.0.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\system.spatial\\5.6.4\\system.spatial.5.6.4.nupkg.sha512",
-    "C:\\Users\\matheus.henrique\\.nuget\\packages\\terminal.gui\\1.19.0\\terminal.gui.1.19.0.nupkg.sha512"
+    "/home/matheus/.nuget/packages/microsoft.azure.activedirectory.graphclient/2.1.1/microsoft.azure.activedirectory.graphclient.2.1.1.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.data.edm/5.6.4/microsoft.data.edm.5.6.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.data.odata/5.6.4/microsoft.data.odata.5.6.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.data.services.client/5.6.4/microsoft.data.services.client.5.6.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/nstack.core/1.1.1/nstack.core.1.1.1.nupkg.sha512",
+    "/home/matheus/.nuget/packages/system.codedom/9.0.4/system.codedom.9.0.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/system.management/9.0.4/system.management.9.0.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/system.spatial/5.6.4/system.spatial.5.6.4.nupkg.sha512",
+    "/home/matheus/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/matheus/.nuget/packages/terminal.gui/1.19.0/terminal.gui.1.19.0.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Azure.ActiveDirectory.GraphClient 2.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "projectPath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "filePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "libraryId": "Microsoft.Azure.ActiveDirectory.GraphClient",
       "targetGraphs": [
         "net6.0"
@@ -31,9 +35,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Data.Edm 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "projectPath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "filePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "libraryId": "Microsoft.Data.Edm",
       "targetGraphs": [
         "net6.0"
@@ -43,9 +47,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Data.OData 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "projectPath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "filePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "libraryId": "Microsoft.Data.OData",
       "targetGraphs": [
         "net6.0"
@@ -55,9 +59,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Data.Services.Client 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "projectPath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "filePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "libraryId": "Microsoft.Data.Services.Client",
       "targetGraphs": [
         "net6.0"
@@ -67,9 +71,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Spatial 5.6.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "projectPath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\matheus.henrique\\OneDrive - Strattner\\Área de Trabalho\\Nova pasta\\todo-cli-client\\src\\App\\App\\App.csproj",
+      "filePath": "/home/matheus/Projects/todo-cli-client/src/App/App/App.csproj",
       "libraryId": "System.Spatial",
       "targetGraphs": [
         "net6.0"
